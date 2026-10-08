@@ -1,0 +1,26 @@
+{
+  "task": "SWYNEX Task 2 - Model or API Integration",
+  "model": "TF-IDF + Logistic Regression",
+  "examples": [
+    {
+      "input": "The dashboard is easy to use and the instructions are very clear.",
+      "expected_category": "Positive Feedback"
+    },
+    {
+      "input": "Could you explain how I submit my weekly task?",
+      "expected_category": "Question"
+    },
+    {
+      "input": "Please add a calendar showing all upcoming deadlines.",
+      "expected_category": "Suggestion"
+    },
+    {
+      "input": "My assignment was marked late even though I submitted it on time.",
+      "expected_category": "Complaint"
+    },
+    {
+      "input": "The portal is confusing and keeps loading when I open my tasks.",
+      "expected_category": "Negative Feedback"
+    }
+  ]
+}
